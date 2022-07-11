@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(ui.jpg);
+     background-size: cover;
+     color: #212529;
+}
+.container{
+    position: absolute;
+    padding-left: 65px;
+    padding-top:20px;
+}
+.list-style-type ul {
+    position: absolute;
+    display: flex;
+    height: 76px;
+    padding-left: 600px;
+    padding-top: 40px;
+    list-style: none;
+    
+
+}
+.list-style-type ul li{
+    width: 120px;
+    margin: 2px;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    flex-wrap: nowrap;
+}
+.sim{
+   padding-top:170px;
+   padding-left: 70px; 
+   width: 1000px;
+   font-size: 40px;
+   color: #fff;
+   font-family:'arial';
+}
+.phone{
+    padding-left: 75px;
+    color:#fff;
+    padding-top:10px;
+    font-size: 15px;
+    width:900px;
+    font-family: 'arial';
+}
+.student{
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 400px;
+  background-color: #eff2f5;
+  width: 100%;
+  height: 200%;
+}
+.dear{
+    padding-left: 75px;
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: 100;
+    color:green;
+    line-height: 2;
+}
+.nav{
+    padding-left: 75px;
+    line-height: 1.7;
+    font-family:'Helvetica';
+}
+.nav-wrapper{
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-top: 110px;
+    background: #f8f9fa;
+    padding: 30px;
+    margin-left: 100px;
+    width: 55%;
+    height: 20%;
+    
+}
+.container-wrapper{
+    position:absolute ;
+    padding-left: 500px;
+    padding-top: 137px;
+    line-height: 1.2;
+}
+.map{
+font-size: small;
+font-family: Arial, Helvetica, sans-serif;
+}
+.func{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keda{
+font-size: small;
+font-family: Arial, Helvetica, sans-serif;
+}
+.tiger{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quick-link{
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-left: 65%;
+    top: 350px;
+    background: #ffffff;
+    width: 250px;
+    height: 200px;
+    padding: 0px 50px;
+}
+.quick-link ul li a{
+    color: rgb(51, 146, 224);
+    line-height: 2;
+    font-size: 20px;
+}
+.quick-link ul {
+    list-style-type: none;
+    font-family: ;
+}
+.staff{
+    font-size: 25px;
+    padding: 15px 0px;
+    color: rgb(24, 138, 24);
+    font-weight: 400px;
+}
+.pbuy{
+    margin: 25px 75px;
+    width: 350px;
+    height: 55px;
+    background: rgb(57, 155, 57);
+    border: none;
+    border-radius: 0.5rem;
+}
+.pbuy a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pbuy a:hover{
+    transition: 0.3s ease-in-out;
+    color: rgb(176, 192, 176);
+}
+.eyi{
+    margin: 0px 150px;
+    font-weight: 200;
+    font-size: 30px;
+    color: rgb(21, 122, 21);
+}
+.tayo{
+    margin: 15px 150px;
+    font-weight: 400;
+    font-family: 'Helvetica';
+    line-height:1.4;
+}
+.yeba{
+    margin: 5px 135px;
+    width: 200px;
+    height: 40px;
+    background: rgb(57, 155, 57);
+    border: none;
+    border-radius: 0.5rem;
+}
+.yeba a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family:'Helvetica';
+}
+.yeba a:hover{
+    transition: 0.3s ease-in-out;
+    color: rgb(176, 192, 176);
+}
+.rema{
+    position: absolute;
+    top: 160px;
+    margin: 2px 600px;
+    width: 350px;
+}
+.boy{
+        margin: 10px 0px;
+        font-weight: 200;
+        font-size: 30px;
+        color: rgb(21, 122, 21);
+}
+.girl{
+    line-height: 1.4;
+    font-family: 'Helvetica';
+}
+.shatta{
+    margin: 5px 13px;
+    width: 200px;
+    height: 40px;
+    background: rgb(57, 155, 57);
+    border: none;
+    border-radius: 0.5rem;
+}
+.shatta a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family:'Helvetica';
+}
+.horizontal-line{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
